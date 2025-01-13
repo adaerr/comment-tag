@@ -5,7 +5,7 @@ module Octopress
   module Tags
     module Comment
       class Tag < Liquid::Tag
-        def render(context); end
+        def render(context) ''; end
       end
     end
   end
